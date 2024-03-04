@@ -60,7 +60,7 @@ body{
 
 .header-main-subtitle{
     position: relative;
-    background-image: url(/resurs/img__header.png);
+    background-image: url(./resurs/img__header.png);
     background-size: cover;
     width: 1150px;
     height: 500px;
@@ -253,7 +253,7 @@ body{
     top: 150px;
     content: "";
     display: block;
-    background-image: url(/resurs/ic_outline-phone-iphone.png);
+    background-image: url(./resurs/ic_outline-phone-iphone.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 24px;
