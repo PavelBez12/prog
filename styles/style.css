@@ -1,0 +1,333 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: "Manrope", sans-serif;
+    width: 1400px;
+    color: #121212;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    max-width: 1151px;
+    box-sizing: border-box;
+    margin: 0 125px;
+}
+
+.header__nav{
+    padding-top: 33px;
+    min-width: 1151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.nav__link{
+    margin-left: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav__link:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.nav__link__active{
+    color: gray;
+    text-decoration: underline;
+}
+
+.header-title{
+    margin-top: 70px;
+    box-sizing: border-box;
+    width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    letter-spacing: -3px;
+}
+
+.header-main-subtitle{
+    position: relative;
+    background-image: url(/resurs/img__header.png);
+    background-size: cover;
+    width: 1150px;
+    height: 500px;
+}
+
+
+.header-subtitle{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 430px;
+    height: 81px;
+    letter-spacing: -3%;
+}
+
+
+ 
+.main{
+    margin-top: 150px;
+    width: 1051px;
+    margin-bottom: 150px;
+}
+
+.main-title{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+.main-subtitle{
+    font-size: 35px;
+    line-height: 62px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.main-link{
+    color: #ffffff;
+    display: inline-block;
+    width: 255px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    background-color: #AD1818;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-link:hover{
+    color:#AD1818;
+    background-color: #ffffff;
+    border: 1px solid #AD1818;
+}
+.project{
+    margin-bottom: 90px;
+}
+.project-title{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.img{
+    margin-bottom: 15px;
+}
+
+.project-subtitle{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.project-link{
+    color: #AD1818;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.project-btn{
+    margin-bottom: 150px;
+    padding: 56px 0;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 41px;
+    margin-top: 56px;
+    color: #AD1818;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    border: 1px solid#AD1818;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-btn:hover{
+    background-color: #AD1818;
+    color: #ffffff;
+}
+
+.service{
+    background-color: #121212;
+}
+
+.container-service{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 1150px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.service-title{
+    margin-bottom: 34px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.service-img{
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.service-subtitle{
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.service-info{
+    padding-bottom: 60px;
+}
+.service-info:nth-last-child(1){
+    padding-bottom: 0;
+}
+
+.project_futer{
+    position: relative;
+    background-image: url(/resurs/img_footer.png);
+    width: 100%;
+    height: 717px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-sizing: border-box;
+}
+
+.futer_container{
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+}
+.futer_title{
+    box-sizing: border-box;
+    width: 443px;
+    height: 82px;
+    margin: 0;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -3%;
+    color: #ffffff;
+}
+
+.contact{
+    position: relative;
+    background-color: #ffffff;
+}
+
+.contact__container{
+    padding: 186px 0 150px 0;
+    max-width: 1151px;
+    box-sizing: border-box;
+    margin: 0 125px;
+}
+.contact__title::before{
+    position: absolute;
+    top: 150px;
+    content: "";
+    display: block;
+    background-image: url(/resurs/ic_outline-phone-iphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.contact__title{
+    margin: 0 0 30px 0;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -3%;
+    text-transform: uppercase;
+    color:#121212;
+}
+
+
+.contact__info{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tel{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-decoration: none;
+    color: #121212;
+}
+
+.email{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer{
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.footer__link{
+    padding: 60px 0 87px 0 ;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.link{
+    display: block;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -3%;
+    text-transform: uppercase;
+    margin-right: 55px;
+}
+
+.link:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.nav__link__active{
+    color: gray;
+    text-decoration: underline;
+    margin-right: 0;
+}
