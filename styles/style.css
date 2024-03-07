@@ -372,7 +372,7 @@ body{
         margin-bottom:103px ;
     }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .container{
         padding: 0 14px;
     }
