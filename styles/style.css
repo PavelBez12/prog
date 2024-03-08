@@ -1,6 +1,5 @@
 
 
-
 html{
     scroll-behavior: smooth;
 }
@@ -8,7 +7,6 @@ html{
 
 body{
     font-family: "Manrope", sans-serif;
-    width: 1400px;
     color: #121212;
     margin: 0;
     padding: 0;
@@ -340,7 +338,7 @@ body{
     .container{
         padding-left: 17px;
         padding-right: 17px;
-        width: 100%;
+        width: 1149px;
         margin: 0 ;
     }
 
@@ -382,7 +380,7 @@ body{
     .container{
         padding-left: 14px;
         padding-right: 14px;
-        width: 375px;
+        max-width: 375px;
         
     }
 
