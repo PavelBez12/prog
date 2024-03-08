@@ -358,9 +358,7 @@ body{
         width: 100%;
     }
 
-    .main{
-        margin: 120px 0 120px 0;
-    }
+    
     .project{
         margin-bottom: 80px;
     }
@@ -385,7 +383,7 @@ body{
         padding-left: 14px;
         padding-right: 14px;
         width: 375px;
-        margin: 0 auto;
+        
     }
 
     .header-title{
@@ -416,9 +414,13 @@ body{
     }
 
     .main{
-        margin: 80px 0 80px 0;
+        width: 350px;
+        
     }
 
+    .main-info{
+        width: 350px;
+    }
     .main-title{
         margin-top: 0;
         font-size: 14px;
@@ -436,7 +438,7 @@ body{
     }
     .project{
         margin-bottom: 49px;
-        width:375px;
+        width:350px;
 
     }
     .project-title{
