@@ -19,7 +19,6 @@ body{
     justify-content: center;
     width: 1151px;
     box-sizing: border-box;
-    margin: 0 125px;
     margin: 0 auto;
 }
 
@@ -86,7 +85,8 @@ body{
 }
 
 .main-title{
-    
+    margin: 0;
+    font-size: 18px;
     line-height: 25px;
     margin-bottom: -12px;
     font-weight: 400;
@@ -95,7 +95,8 @@ body{
 
 
 .main-subtitle{
-    font-size: 40px;
+    margin: 30 0 30px 0;
+    font-size: 39px;
     line-height: 62px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -104,17 +105,17 @@ body{
 
 
 .main-link{
-    color: #ffffff;
-    display: inline-block;
     width: 255px;
     height: 67px;
+    display: inline-block;
     text-align: center;
     line-height: 67px;
     background-color: #AD1818;
-    font-size: 20px;
-    text-decoration: none;
-    cursor: pointer;
+    border: 1px solid #AD1818;
+    color: #fff;
     border-radius: 5px;
+    text-decoration: none;
+    transition: .2s linear;
 }
 
 .main-link:hover{
@@ -124,24 +125,28 @@ body{
 }
 
 
+
 .project{
     margin-bottom: 90px;
 }
 .project-title{
+    margin: 0;
     margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
 }
+.img_p{
+    display: block;
+}
 .img__project{
-    margin: 0;
-    padding: 0;
+    width: 100%;
     height: 450px;
 }
 
 .project-subtitle{
-  margin: 5px 0 15px 0;
+  margin: 15px 0;
   font-size: 28px;
   line-height: 41px;
   letter-spacing: -3%;
@@ -169,54 +174,128 @@ body{
     border: 1px solid#AD1818;
     border-radius: 5px;
     cursor: pointer;
+    transition: .2s linear;
 }
 
 .project-btn:hover{
     background-color: #AD1818;
     color: #ffffff;
+} 
+ 
+.service_black{
+    background-color: #121212;
+    width: 100%;
 }
-
 
 .service{
+    padding-top: 150px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 1149px;
     background-color: #121212;
+    color: #ffffff;
 }
-
-.container-service{
-    padding-top: 134px;
-    padding-bottom: 79px;
-    width: 1150px;
+.service_container{
+    justify-content: center;
+    width: 1151px;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
-.service-title{
-    margin-bottom: 34px;
+.service_info{
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
     font-size: 18px;
     line-height: 25px;
-    text-transform: uppercase;
-    color: #ffffff;
 }
 
-.service-img{
+
+.service_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 85px;
+    padding-bottom: 106px;
+}
+
+.service-item{ 
+    width: calc(50% - 5px);
+    position: relative;
+}
+
+.service_img{
+    width: 100%;
+    margin-bottom: 25px;
+    height: 270px;
+}
+.service_img_1{
+    background-image: url(/resurs/service1.png);
     background-repeat: no-repeat;
-    margin-bottom: 15px;
+    background-size: cover;
 }
 
-.service-subtitle{
-    font-size: 28px;
-    line-height: 41px;
-    font-weight: 400;
+.service_img_2{
+    background-image: url(/resurs/service2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.service_img_3{
+    background-image: url(/resurs/service3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.service_img_4{
+    background-image: url(/resurs/service4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.service_btn{
+    width: 100%;
+    padding: 56px;
+    background-color: #AD1818;
     color: #ffffff;
-    margin-top: -3px;
-    margin-bottom: 60px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s linear;
 }
 
-
-.service-info:nth-last-child(1){
-    padding-bottom: 0;
+.service_btn:hover{
+    color: #AD1818;
+    background-color: #ffffff;
 }
 
+.service_title{
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    width: 344px;
+    font-weight: 100;
+}
 
+.lebal_wrapper{
+    position: absolute;
+    top: 36px;
+    left: 50px;
+}
+
+.laebal{
+    padding: 5px 20px;
+    background-color: #AD1818;
+    border-radius: 5px;
+}
 
 .project_futer{
     position: relative;
@@ -263,7 +342,6 @@ body{
     content: "";
     display: block;
     background-image: url(../resurs/ic_outline-phone-iphone.png);
-    background-size: cover;
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -333,7 +411,7 @@ body{
 .link:hover{
     color: gray;
     text-decoration: underline;
-}
+} 
 
 @media (max-width: 1149px) {
     .container{
@@ -375,6 +453,13 @@ body{
     .project-btn{
         margin-bottom:103px ;
     }
+
+    .service_container{
+        padding-left: 17px;
+    padding-right: 17px;
+    width: 1149px;
+    margin: 0;
+    }
 }
 
 @media (max-width: 400px) {
@@ -390,7 +475,7 @@ body{
         display: block;
         width: 348px;
         margin-top: 61px;
-        font-size: 33px;
+        font-size: 24px;
         line-height: 32px;
         letter-spacing: -3%;
     }
@@ -424,11 +509,11 @@ body{
         margin-top: 0;
         font-size: 14px;
         line-height: 20px;
+        margin-bottom: 20px;
     }
 
     .main-subtitle{
-        margin-bottom: 30px;
-        margin-top: 20px;
+        margin: 0 0 30px 0;
         width: 346px;
         font-size: 19px;
         line-height: 31px;
@@ -446,13 +531,10 @@ body{
         margin-bottom: 20px;
     }
     .img{
-        width: 100%;
-        height: 250px;
-        background-repeat: no-repeat;
         object-fit: cover;
-        object-position:center;
+        width: 350px;
+        height: 250px;
         margin-bottom: 20px; 
-        
     }
     .project-subtitle{
         margin: 0;
@@ -474,5 +556,56 @@ body{
         padding: 37px 0;
     
     }
+
+    .service{
+        width: 375px;
+    }
+
+    .service-item{
+        width: 100%;
+    }
+
+    .service_wrapper{
+        flex-direction: column;
+        row-gap: 60px;
+        margin: 0;
+        padding-bottom: 80px;
+    }
+    .service_container{
+        padding-left: 14px;
+        padding-right: 14px;
+        max-width: 375px;
+    }
+
+    .service_info{
+        padding-top: 80px;
+    }
+
+    .service_img{
+        object-fit: cover;
+        width: 350px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .service_title{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+
+    .lebal_wrapper{
+        position: absolute;
+        left:24px;
+        top: 24px;
+    }
+
+    .service_btn{
+        max-width: 351px;
+        font-size: 22px;
+        line-height: 31px;
+        padding: 37px 0;
+        font-weight: 100;
+    }
 }
- 
