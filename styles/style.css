@@ -230,25 +230,25 @@ body{
     height: 270px;
 }
 .service_img_1{
-    background-image: url(../resurs/Rectangle\ 2.png);
+    background-image: url(../resurs/Rectangle\2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .service_img_2{
-    background-image:url(../resurs/Rectangle\ 3.png);
+    background-image:url(../resurs/Rectangle\3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .service_img_3{
-    background-image: url(../resurs/Rectangle\ 4.png);
+    background-image: url(../resurs/Rectangle\4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .service_img_4{
-    background-image: url(../resurs/Rectangle\ 5.png);
+    background-image: url(../resurs/Rectangle\5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
