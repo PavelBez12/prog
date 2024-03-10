@@ -230,27 +230,27 @@ body{
     height: 270px;
 }
 .service_img_1{
-    background-image: url(/resurs/service1.png);
+    background-image: url(../resurs/service1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .service_img_2{
-    background-image: url(/resurs/service2.png);
+    background-image: url(../resurs/service2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 
 .service_img_3{
-    background-image: url(/resurs/service3.png);
+    background-image: url(../resurs/service3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 
 .service_img_4{
-    background-image: url(/resurs/service4.png);
+    background-image: url(../resurs/service4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
