@@ -230,7 +230,7 @@ body{
     height: 270px;
 }
 .service_img_1{
-    background-image: url(/resurs/service11.png);
+    background-image: url(../resurs/service11.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -243,14 +243,14 @@ body{
 }
 
 .service_img_3{
-    background-image: url(resurs/service13.png);
+    background-image: url(..resurs/service13.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 
 .service_img_4{
-    background-image: url(resurs/service14.png);
+    background-image: url(..resurs/service14.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
