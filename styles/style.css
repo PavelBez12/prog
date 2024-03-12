@@ -574,9 +574,7 @@ body{
         max-width: 375px;
     }
 
-    .service_info{
-        padding-top: 80px;
-    }
+
 
     .service_img{
         object-fit: cover;
